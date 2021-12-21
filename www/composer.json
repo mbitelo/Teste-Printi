@@ -1,0 +1,26 @@
+{
+  "name": "mikhael/cadastrofilmes",
+  "description": "Cadastro de filmes",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikhael Bitelo",
+      "email": "mikhaelbitelo@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-pdo": "*",
+    "coffeecode/datalayer": "1.1.7",
+    "coffeecode/router": "1.0.7"
+  }
+}
